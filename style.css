@@ -1,5 +1,6 @@
 body {
     background-color: lightgreen;
+    font-family: Arial;
 }
 
 .game_board {
@@ -21,7 +22,7 @@ body {
 
 .game_title {
     color: rgb(31, 31, 31);
-    font: 8vh Arial;
+    font-size: 8vh;
 
     height: 10%;
     width: 80%;
@@ -39,7 +40,6 @@ body {
 }
 
 .score_row > .score_area {
-
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     /*border: 2px solid black;*/
@@ -51,6 +51,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    font-size: 4vh;
+    text-align: left;
 }
 
 .score_row .player {
