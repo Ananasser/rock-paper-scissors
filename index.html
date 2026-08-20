@@ -22,9 +22,9 @@
             <div class="choice_row">
                 <div class="choice_area player">
                     <!--choose a more appropriate tag-->
-                    <button class="choice_item">rock</button>
-                    <button class="choice_item">paper</button>
-                    <button class="choice_item">scissors</button>
+                    <button data-value="0" class="choice_item">rock</button>
+                    <button data-value="1" class="choice_item">paper</button>
+                    <button data-value="2" class="choice_item">scissors</button>
                 </div>
 
                 <div class="choice_area bot">
@@ -33,6 +33,10 @@
                     <button class="choice_item">paper</button>
                     <button class="choice_item">scissors</button>
                 </div>
+            </div>
+
+            <div id="info_label" class="info_row">
+                Your move is: _, bot move is: _.
             </div>
 
         </div>
