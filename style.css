@@ -123,13 +123,13 @@ body {
 }
 
 .won {
-    background-color: #88ff78;
+    background-color: #88ff78 !important;
 }
 
 .lost {
-    background-color: #fc685d;
+    background-color: #fc685d !important;
 }
 
 .tied {
-    background-color: #b0b0b0;
+    background-color: #b0b0b0 !important;
 }

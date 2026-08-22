@@ -65,6 +65,7 @@ function confirmMove(element) {
 
 function handlePlayerMove(event) {
     // console.log(`button value : ${event.target.dataset.value}\n`);
+    clearButtonStyle();
     player_move = parseInt(event.target.dataset.value);
 
     // return early if no button was clicked (placeholder)
@@ -120,19 +121,19 @@ function infoUpdate() {
     // hacky tie check
     if (player_move == bot_move) {
         choice_area.querySelector(`[data-value="${player_move}"]`).classList.add("tied");
-        bot_area.querySelector(`[data-value="${player_move}"]`).classList.add("tied");
+        bot_area.querySelector(`[data-value="${bot_move}"]`).classList.add("tied");
         info.textContent += "It's a tie!";
         return;
     }
 
     if (has_won) {
         choice_area.querySelector(`[data-value="${player_move}"]`).classList.add("won");
-        bot_area.querySelector(`[data-value="${player_move}"]`).classList.add("lost");
+        bot_area.querySelector(`[data-value="${bot_move}"]`).classList.add("lost");
         info.textContent += "You win! :)";
     } 
     else {
         choice_area.querySelector(`[data-value="${player_move}"]`).classList.add("lost");
-        bot_area.querySelector(`[data-value="${player_move}"]`).classList.add("won");
+        bot_area.querySelector(`[data-value="${bot_move}"]`).classList.add("won");
         info.textContent += "You lose! :(";
     }
 }
