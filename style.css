@@ -22,6 +22,7 @@
     --info-width: 80%;
 
     --title-font-size: 8vh;
+    --info-font-size: 2.8vh;
 
     --items-direction: row;
     --item-width: 20%;
@@ -29,14 +30,14 @@
 
 @media only screen and (max-width: 1600px) {
     :root {
-        --title-font-size: 7vh;
+        --title-font-size: 6vh;
     }
 }
 
 @media only screen and (max-width: 1375px) {
     :root {
-        --board-width: 100vw;
-        --title-font-size: 6vh;
+        --board-width: 95vw;
+        --title-font-size: 5vh;
         --items-direction: column;
     }
 }
@@ -51,6 +52,8 @@
 
 body {
     background-color: var(--color-background);
+    background-image: url(svg_backgrounds/bg_test.svg);
+    background-size: 20% auto;
     font-family: Arial;
 }
 
@@ -73,12 +76,15 @@ img {
 }
 
 .game_title {
-    color: var(--color-text-title);
-    font-size: var(--title-font-size);
     height: 10%;
     width: 80%;
+
+    color: var(--color-text-title);
+    font-size: var(--title-font-size);
+
     display: flex;
     justify-content: center;
+
 }
 
 .score_row {
@@ -181,7 +187,7 @@ background-color: var(--color-accent-bot); hsla(25 100% 50% / 0.5)
     padding: 0 1vw;
     height: 10%;
 
-    font-size: 2.8vh;
+    font-size: var(--info-font-size);
     width: var(--info-width);
     display: flex;
     align-items: center;

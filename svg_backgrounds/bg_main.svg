@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="48"
+   height="48"
+   viewBox="0 0 12.7 12.7"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
+   sodipodi:docname="bg_main.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#111111"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     showgrid="true"
+     inkscape:zoom="16"
+     inkscape:cx="19.46875"
+     inkscape:cy="24.8125"
+     inkscape:window-width="1920"
+     inkscape:window-height="1108"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       id="grid1"
+       units="px"
+       originx="0"
+       originy="0"
+       spacingx="0.26458333"
+       spacingy="0.26458333"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="5"
+       enabled="true"
+       visible="true" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#90ee90;stroke:#ffffff;stroke-width:0;stroke-linejoin:round;stroke-dasharray:none;fill-opacity:1;stroke-linecap:round"
+       id="rect1"
+       width="12.699999"
+       height="12.699999"
+       x="0"
+       y="0"
+       rx="0"
+       ry="0" />
+    <rect
+       style="fill:#ceffce;fill-opacity:1;stroke:none;stroke-width:0.450001;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:0.0450001, 0.0450001;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+       id="rect9-3-3"
+       width="6.3499994"
+       height="6.3499994"
+       x="5.8052554"
+       y="-3.1749995"
+       transform="rotate(45)" />
+  </g>
+</svg>
